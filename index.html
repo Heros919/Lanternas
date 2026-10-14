@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lanternas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Big+Shoulders+Display:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">Espectro dos Lanternas</div>
+      <button class="tbtn" id="themeBtn" type="button">Tema</button>
+    </div>
+
+    <header class="hero">
+      <p class="mono">DC Comics · Espectro Emocional</p>
+      <h1>Lanternas<br><span id="heroWord">Uma emoção</span></h1>
+      <p>Cada anel de poder se alimenta de uma emoção. Escolha uma tropa na faixa abaixo para ver o juramento, o
+        representante, o vídeo e as HQs que marcaram a história dela.</p>
+    </header>
+  </div>
+
+  <nav class="spectrum" aria-label="Escolher tropa">
+    <div class="spectrum-in" id="sp"></div>
+  </nav>
+
+  <main class="wrap">
+    <section class="panel" id="panel" aria-live="polite"></section>
+
+    <section class="sec" id="comparar">
+      <h2>Todas lado a lado</h2>
+      <p class="mono">Clique numa linha para abrir a tropa</p>
+      <div class="scroll">
+        <table id="tbl"></table>
+      </div>
+    </section>
+
+    <section class="sec" id="tempo">
+      <h2>Linha do tempo</h2>
+      <ol class="tl" id="tl"></ol>
+    </section>
+
+    <section class="sec" id="quiz">
+      <h2>Qual tropa combina com você?</h2>
+      <form class="quiz" id="quizForm"></form>
+      <div id="quizOut"></div>
+    </section>
+
+    <section class="sec" id="oa">
+      <h2>Oa e os Guardiões</h2>
+      <div class="facts-list">
+        <div class="card"><b>Oa</b>
+          <p>Planeta no centro do universo, sede do Corpo dos Lanternas Verdes e lar da Bateria Central de Poder.</p>
+        </div>
+        <div class="card"><b>Guardiões do Universo</b>
+          <p>Seres azuis de longa vida que criaram o Corpo dos Lanternas Verdes e escolhem os recrutas.</p>
+        </div>
+        <div class="card"><b>Setores espaciais</b>
+          <p>O universo é dividido em 3.600 setores, e cada um recebe dois Lanternas Verdes como guardiões.</p>
+        </div>
+        <div class="card"><b>A carga do anel</b>
+          <p>Todo anel precisa ser recarregado na lanterna da própria tropa, e o ritual de recarga vem junto com o
+            juramento.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sec" id="glossario">
+      <h2>Glossário rápido</h2>
+      <div class="gl" id="gl"></div>
+    </section>
+
+    <footer>
+      Site de fã, sem vínculo com a DC Comics. Os juramentos seguem a tradução em português; os áudios de Lanterna Verde
+      e Vermelho foram enviados por quem montou o site. As HQs mostram a capa enviada por quem montou o site ou, quando
+      não há capa, a arte do personagem, sempre com link para buscar a capa original. As artes foram enviadas por quem
+      montou o site e pertencem aos artistas e à DC Comics, assim como os personagens e as marcas.
+    </footer>
+  </main>
+
+  <script src="script.js" defer></script>
+
+
+</body>
+
+</html>
