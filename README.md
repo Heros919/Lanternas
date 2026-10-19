@@ -8,7 +8,7 @@ Uma aplicação web interativa e temática dedicada às tropas do **Espectro Emo
 
 ## 🚀 Funcionalidades
 
-* **Navegação Interativa pelo Espectro:** Seletor no topo que altera dinamicamente a paleta de cores e o tema da interface de acordo com a tropa selecionada.
+* **Portal do Espectro:** O índice apresenta as nove tropas em um círculo de lanternas coloridas; cada lanterna abre a página dedicada àquela tropa.
 
 
 * **Painel da Tropa Detalhado:**
@@ -29,7 +29,7 @@ Uma aplicação web interativa e temática dedicada às tropas do **Espectro Emo
 * **HQs Marcantes & Vídeos:** Galeria de capas históricas e links para vídeos/conteúdos explicativos.
 
 
-* **Tabela Comparativa:** Visualização lado a lado de todas as tropas com atalho para seleção rápida.
+* **Tabela Comparativa:** Visualização lado a lado de todas as tropas com atalho para abrir cada página.
 
 
 * **Linha do Tempo:** Cronologia com os eventos e estreias mais importantes da franquia (1940–2010).
@@ -68,9 +68,18 @@ Uma aplicação web interativa e temática dedicada às tropas do **Espectro Emo
 
 ```text
 .
-├── index.html          # Estrutura principal da página
-├── styles.css          # Estilização, layout e variáveis do tema
-├── script.js          # Lógica, dados das tropas, quiz e áudio
+├── index.html           # Portal circular para escolher uma tropa
+├── verde.html           # Página dos Lanternas Verdes
+├── amarelo.html         # Página da Tropa Sinestro
+├── vermelho.html        # Página dos Lanternas Vermelhos
+├── azul.html            # Página dos Lanternas Azuis
+├── indigo.html          # Página da Tribo Índigo
+├── laranja.html         # Página do Lanterna Laranja
+├── violeta.html         # Página das Safiras Estelares
+├── branco.html          # Página do Lanterna Branco
+├── preto.html           # Página dos Lanternas Negros
+├── styles.css           # Estilização, layout e variáveis do tema
+├── script.js            # Lógica, dados das tropas, quiz e áudio
 ├── img/                # Retratos dos heróis e capas de HQs
 └── audio/              # Ficheiros de áudio dos juramentos (opcional)
 ```[cite: 3, 4, 5]

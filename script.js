@@ -1,6 +1,6 @@
 var C = [
   {
-    id: "verde", nome: "Lanternas Verdes", cor: "#2ecc71", on: "#03130a", emo: "Vontade", ent: "Ion", hq: "Oa", lider: "Guardiões do Universo", tone: 196,
+    id: "verde", nome: "Lanternas Verdes", cor: "#2ecc71", on: "#03130a", emo: " Força de Vontade", ent: "Ion", hq: "Oa", lider: "Guardiões do Universo", tone: 196,
     lead: "A tropa original. Policiais espaciais que transformam força de vontade em construtos de luz, patrulhando 3.600 setores.",
     oath: "No dia mais claro, na noite mais densa,\nO mal sucumbirá perante a minha presença.\nTodo aquele que me enfrentar há de penar,\nQuando o poder do Lanterna Verde enfrentar!",
     cur: ["A Tropa dos Lanternas Verdes é uma força policial intergaláctica criada para manter a ordem em diferentes regiões do universo.", "Durante boa parte da história dos Lanternas Verdes, existia uma limitação bastante conhecida: a energia verde era incapaz de afetar diretamente a cor amarela.", "Mais de um Lanterna Verde da Terra já carregou o anel, entre eles Alan Scott, Hal Jordan, John Stewart, Guy Gardner e Kyle Rayner."],
@@ -11,7 +11,7 @@ var C = [
   {
     id: "amarelo", nome: "Tropa Sinestro", cor: "#f7d117", on: "#171300", emo: "Medo", ent: "Parallax", hq: "Qward", lider: "Sinestro", tone: 262,
     lead: "Formado por Sinestro, ex-Lanterna Verde. Governa pelo terror e transforma o medo dos inimigos em arma.",
-    oath: "No dia mais escuro, na noite mais brava,\nCuidado com os seus medos alimentados pela fúria de uma praga.\nPara aqueles que tentam deter o que é direito,\nQueimem como o meu poder... O poder de Sinestro!",
+    oath: "No dia mais escuro, na noite mais brilhante,\nSinta meus medos se tornarem uma luz cortante. \nTodo aquele que o correto tentar barrar,\nArderá em chamas quando o poder de sinestro enfrentar!",
     cur: ["Os anéis amarelos já foram vistos como fraqueza do anel verde, até que a Tropa Sinestro mostrou que não é bem assim.", "Os recrutas costumam ser seres capazes de causar pavor em larga escala.", "A Guerra de Sinestro obrigou os Lanternas Verdes a mudar as próprias regras."],
     rep: { nome: "Sinestro", alter: "Thaal Sinestro de Korugar, Setor 1417", estreia: "Green Lantern #7 (1961)", poder: "Construtos amarelos alimentados pelo medo", papel: "Fundador e líder da Tropa Sinestro", bio: "Já foi o melhor Lanterna Verde. Acreditava que ordem exigia medo e foi expulso quando passou do limite, então fundou a própria tropa." },
     hqs: [["Green Lantern #7", "1961", "G. Kane · J. Broome", "sinestro-gl7.jpg"], ["Sinestro Corps War", "2007–08", "G. Johns · D. Gibbons · P. Tomasi · I. Reis", "sinestro-corps-war.jpg"], ["Sinestro Vol. 1: The Demon Within", "2014", "C. Bunn · D. Eaglesham · R. Morales", "sinestro-demon-within.jpg"]],
@@ -20,7 +20,7 @@ var C = [
   {
     id: "vermelho", nome: "Lanternas Vermelhos", cor: "#e63a2f", on: "#fff", emo: "Raiva", ent: "Butcher", hq: "Ysmault", lider: "Atrocitus", tone: 123,
     lead: "Seres movidos pela fúria que cospem uma substância ardente quando o anel é ativado. Nasceram da tragédia de um setor inteiro.",
-    oath: "Com sangue e ira de um vermelho mortal,\nArrancado de um cadáver recém-fetal,\nJunto com o nosso ódio infernal,\nQueimaremos a todos, eis o destino final!",
+    oath: "Com sangue e ira de um vermelho ardente,\nArrancado à força de um cadáver ainda quente,\nSomado ao nosso ódio que arde infernal,\nQueimaremos a todos,\nEis o destino final!",
     cur: ["O anel vermelho responde a emoções intensas, não a pensamento organizado.", "Atrocitus é um dos poucos que conseguem manter o controle sob o efeito da raiva.", "Já houve Lanterna Verde que aceitou o anel vermelho por vingança pessoal."],
     rep: { nome: "Atrocitus", alter: "Sobrevivente de Ysmault, Setor 666", estreia: "c. 2008, era Geoff Johns", poder: "Construtos vermelhos e fúria sem limite", papel: "Fundador e líder dos Lanternas Vermelhos", bio: "Perdeu o povo para uma sabotagem dos Guardiões e passou a vida em busca de vingança, reunindo seres guiados pela mesma fúria." },
     hqs: [["Red Lanterns #1", "2011", "P. Milligan · E. Benes", "vermelho-red-lanterns1.jpg"], ["Blackest Night Saga", "2009–10", "G. Johns · I. Reis · O. Albert · J. Prado", "vermelho-blackest-night-saga.jpg"], ["Green Lantern: Rage of the Red Lanterns", "2009", "G. Johns · S. Davis · D. Mahnke", "vermelho-rage.jpg"]],
@@ -38,7 +38,7 @@ var C = [
   {
     id: "indigo", nome: "Tribo Índigo", cor: "#7b5cff", on: "#fff", emo: "Compaixão", ent: "Proselyte", hq: "Móvel, sem base fixa", lider: "Indigo-1", tone: 392,
     lead: "Uma tribo misteriosa que usa a compaixão como arma. Eles forçam outros a sentir empatia e falam uma língua só deles.",
-    oath: "Tor lorek san, bor nakka mur,\nNatula zen foro bittoen\nNa dula chin, na dula chun,\ntribo índigo calem-se para sempre!",
+    oath: "Tor Lorek San, \nBor Nakka mur,\nNatromo Faan Tornek Wot Ur,\nTer Lantern Lo Abin Sur,\nTaan Lek Lek Nok...\nFomorrow Sur.",
     cur: ["Os membros falam entre si numa língua que poucos entendem.", "A tribo já foi vista usando teletransporte para chegar rápido a quem precisa.", "A atuação começa, quase sempre, com recrutas à beira da morte."],
     rep: { nome: "Indigo-1", alter: "Líder da tribo, nome e origem pouco revelados", estreia: "era Geoff Johns", poder: "Construtos índigo, teletransporte e empatia forçada", papel: "Líder da Tribo Índigo", bio: "Guia a tribo com seriedade e pouca conversa. É a figura mais enigmática do espectro." },
     hqs: [["Blackest Night: 10th Anniversary Omnibus", "2019", "G. Johns · I. Reis", "omnibus-blackest-night.jpg"], ["Green Lantern: New Guardians #2", "2011", "T. Bedard · T. Kirkham", "indigo-new-guardians2.jpg"], ["Brightest Day #14", "2010", "G. Johns · P. Tomasi · I. Reis", "indigo-brightest-day14.jpg"]],
@@ -47,7 +47,7 @@ var C = [
   {
     id: "laranja", nome: "Lanterna Laranja", cor: "#ff8a1f", on: "#1f0d00", emo: "Avareza", ent: "Ophidian", hq: "Okaara", lider: "Larfleeze", tone: 164,
     lead: "A única tropa de um membro só. Larfleeze, o Agente Laranja, guarda o que tem e deseja tudo o que não tem.",
-    oath: "O que é meu é meu, e de mais ninguém!\nE de mais ninguém, e de mais ninguém!\nNão de você, nem deles, nem de quem quer que seja!\nO que é meu é meu, e de mais ninguém!",
+    oath: "Com a cobiça e avareza queimando a frente,\nAceite o anel e se junte com a gente,\nDa raça mesquinha ao poder final,\nDe luz laranja para a Noite Mais Densa, primordial!",
     cur: ["Larfleeze reúne vítimas de um massacre num exército de construtos, o que ajuda a manter tudo sob guarda.", "Mesmo cercado de poder, ele tem um pavor de perder o que já possui.", "Já foi parceiro de Lanternas de outras cores quando o interesse coincidia."],
     rep: { nome: "Larfleeze", alter: "Agente Laranja, nativo de Okaara", estreia: "c. 2009, era Blackest Night", poder: "Construtos laranja e drenagem de poder alheio", papel: "Único membro da tropa", bio: "Cobiçoso, desconfiado e engraçado sem querer. O personagem mistura comédia com ameaça real." },
     hqs: [["Larfleeze", "2013", "Série própria", "laranja-larfleeze.jpg"], ["Blackest Night: 10th Anniversary Omnibus", "2019", "G. Johns · I. Reis", "omnibus-blackest-night.jpg"], ["Green Lantern: New Guardians #4", "2011", "T. Bedard · T. Kirkham", "laranja-new-guardians4.jpg"]],
@@ -56,7 +56,7 @@ var C = [
   {
     id: "violeta", nome: "Safiras Estelares", cor: "#d447c8", on: "#fff", emo: "Amor", ent: "Predator", hq: "Zamaron", lider: "Rainha de Zamaron", tone: 220,
     lead: "Guerreiras do amor. O anel violeta usa afeto e entrega como fonte de energia, e o grupo teve a primeira dupla de rivais do Corpo Verde.",
-    oath: "Para corações distantes e cheios de dor,\nPara aqueles que perderam tudo pelo amor,\nAceite o nosso anel e siga a nossa luz,\nO amor tudo conquista e ao amanhã conduz!",
+    oath: "Pelos corações perdidos e cheios de horror,\nQue na noite mais densa choram solitários de dor,\nAceite nosso anel e ajude a combater o terror,\nE a tudo conquistar com a Luz Violeta do Amor.",
     cur: ["O anel violeta busca quem ama de verdade e quer se entregar ao outro.", "As Safiras Estelares já foram vilãs e depois aliadas dos Lanternas.", "Carol Ferris é o rosto da tropa e tem uma história ligada a Hal Jordan."],
     rep: { nome: "Carol Ferris", alter: "Empresária de Coast City e ex-piloto", estreia: "Green Lantern #16 (1962)", poder: "Construtos violeta e voo", papel: "Safira Estelar mais conhecida", bio: "Executiva e piloto talentosa, ela encara o amor como uma força prática e escolhe como lutar por ele." },
     hqs: [["Green Lantern #16", "1962", "Estreia da Safira Estelar", "violeta-gl16.jpg"], ["Blackest Night #7", "2010", "G. Johns · I. Reis · O. Albert · J. Prado", "violeta-blackest-night7.jpg"], ["Green Lantern: New Guardians #1", "2011", "T. Bedard", "violeta-new-guardians2 copy.jpg"]],
@@ -65,7 +65,7 @@ var C = [
   {
     id: "branco", nome: "Lanterna Branco", cor: "#f2f2f2", on: "#111", emo: "Vida", ent: "Entidade da Vida", hq: "A própria Entidade", lider: "Kyle Rayner", tone: 262,
     lead: "A luz da vida, que une todas as emoções. É uma força rara, quase uma ressurreição em forma de anel.",
-    oath: "",
+    oath: "No dia mais sombrio, na noite mais silenciosa,\nCom as almas cheias de luz,\nEsmagaremos quem trouxer a noite mais densa,\nPela nossa mão... Pela vida de nossa luz!",
     cur: ["O anel branco surgiu depois de Blackest Night, ligado à Entidade da Vida.", "Kyle Rayner usou o poder para combater a ameaça que cercava o universo.", "A luz branca está ligada ao poder de todas as outras cores."],
     rep: { nome: "Kyle Rayner", alter: "Artista de Los Angeles, Terra", estreia: "Green Lantern #48 (1994)", poder: "Construtos brancos, ressuscitar e unir as cores do espectro", papel: "Portador do anel branco", bio: "Artista, criativo e impulsivo. Foi o único Lanterna Verde da Terra por um tempo e passou a ser lembrado como o herói do espectro inteiro." },
     hqs: [["Blackest Night #7", "2010", "G. Johns · I. Reis · O. Albert · J. Prado", "branco-blackest-night7.jpg"], ["Green Lantern: New Guardians #33", "2014", "Série New Guardians", "branco-new-guardians33.jpg"], ["Brightest Day #1", "2010", "G. Johns · P. Tomasi · I. Reis", "branco-brightest-day1.jpg"]],
@@ -74,7 +74,7 @@ var C = [
   {
     id: "preto", nome: "Lanternas Negros", cor: "#9a9aaa", on: "#0a0a10", emo: "Morte", ent: "Nekron", hq: "Necropolis", lider: "Nekron", tone: 98,
     lead: "Cadáveres reanimados que usam anéis negros para sentir as emoções dos vivos e transformá-las em ruína.",
-    oath: "No alto dos céus a Noite Mais Densa desponta,\nEnquanto a escuridão apaga a luz que se espalha,\nClamamos por seu coração e por sua alma pronta,\nPela minha mão negra, os mortos se levantarão da mortalha!",
+    oath: "No alto dos céus A Noite Mais Densa desponta,\nEnquanto a luz morre a escuridão toma conta,\nAlmejamos seu fim e miramos seu coração,\nPela minha mão negra os mortos se erguerão!",
     cur: ["Os anéis negros procuram emoções vivas para drenar.", "A força ganha escala quando encontra heróis mortos que são reanimados.", "O evento foi o maior confronto entre o espectro e a morte nos quadrinhos."],
     rep: { nome: "Black Hand", alter: "William Hand, vilão de Coast City", estreia: "Green Lantern #29 (1964)", poder: "Construtos negros e drenagem de emoção", papel: "Arauto de Nekron em Blackest Night", bio: "Vilão que se fascinava com a morte e virou o primeiro Lanterna Negro, arauto de Nekron." },
     hqs: [["Blackest Night", "2009–10", "G. Johns · I. Reis · O. Albert · J. Prado", "preto-blackest-night.jpg"], ["Green Lantern #29", "2014", "R. Venditti · B. Tan · M. Coccolo", "preto-gl29.jpg"], ["Black Lantern Corps Vol. 1", "2010", "Tie-in de Blackest Night", "preto-black-lantern-corps.jpg"]],
@@ -129,16 +129,14 @@ function link(q, kind) {
 
 /* Espectro */
 function buildSp() {
-  $("#sp").innerHTML = C.map(function (c) {
-    return '<button class="sp" type="button" data-id="' + c.id +
-      '" style="--k:' + c.cor + '" aria-pressed="false"><i></i><span>' +
-      c.nome + '</span></button>';
-  }).join("");
-
-  $("#sp").addEventListener("click", function (e) {
-    var b = e.target.closest(".sp");
-    if (b) pick(b.dataset.id, true);
-  });
+  $("#sp").innerHTML = C.map(function (c, i) {
+    return '<a class="sp-orb" href="' + c.id + '.html" style="--k:' + c.cor +
+      ';--i:' + i + '" aria-label="Abrir página: ' + c.nome +
+      '"><span class="orb-light"></span><img class="orb-logo" src="img/' +
+      (c.id === "indigo" ? "roxo" : c.id) + '.png" alt=""><span class="orb-name">' +
+      c.nome + '</span></a>';
+  }).join("") + '<div class="orbit-core"><span class="mono">Espectro</span>' +
+    '<strong>Emocional</strong></div>';
 }
 
 function coverCard(h) {
@@ -161,8 +159,13 @@ function render(c) {
 
   var html = "";
 
+  var pageLink = document.documentElement.hasAttribute("data-lantern")
+    ? '<a class="btn ghost" href="index.html">Voltar ao espectro</a>'
+    : '<a class="btn ghost" href="' + c.id + '.html">Abrir página da tropa</a>';
+
   html += '<div class="ph"><span class="mono">Emoção · ' + c.emo +
-    '</span><h2>' + c.nome + '</h2><p class="lead">' + c.lead + '</p></div>';
+    '</span><h2>' + c.nome + '</h2><p class="lead">' + c.lead + '</p>' +
+    pageLink + '</div>';
 
   html += '<div class="cols"><div class="card"><h3>Juramento e dados</h3>';
 
@@ -403,13 +406,13 @@ function buildTable() {
 
   $("#tbl").addEventListener("click", function (e) {
     var r = e.target.closest("tr[data-id]");
-    if (r) pick(r.dataset.id, true);
+    if (r) window.location.href = r.dataset.id + ".html";
   });
 
   $("#tbl").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
       var r = e.target.closest("tr[data-id]");
-      if (r) pick(r.dataset.id, true);
+      if (r) window.location.href = r.dataset.id + ".html";
     }
   });
 }
@@ -490,7 +493,7 @@ function buildQuiz() {
       '</button></div></div>';
 
     $("#goBtn").addEventListener("click", function () {
-      pick(best.id, true);
+      window.location.href = best.id + ".html";
     });
   });
 }
@@ -523,17 +526,16 @@ try {
 } catch (e) { }
 
 /* Inicialização */
-buildSp();
-buildTable();
-buildTL();
-buildGL();
-buildQuiz();
-
-var h = (location.hash || "").replace("#", "");
-
-pick(
-  C.some(function (c) {
-    return c.id === h;
-  }) ? h : "verde",
-  false
-);
+if (document.documentElement.hasAttribute("data-home")) {
+  buildSp();
+  buildTable();
+  buildTL();
+  buildGL();
+  buildQuiz();
+} else {
+  var pageId = document.documentElement.getAttribute("data-lantern");
+  if (!C.some(function (c) { return c.id === pageId; })) {
+    throw new Error("ID de tropa inválido nesta página: " + pageId);
+  }
+  pick(pageId, false);
+}
