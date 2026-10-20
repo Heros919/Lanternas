@@ -1,4 +1,4 @@
-    :root {
+:root {
       color-scheme: light;
       box-sizing: border-box;
       padding-top: env(safe-area-inset-top, 0px);
@@ -624,8 +624,8 @@
     .sp-orb {
       position: absolute;
       z-index: 1;
-      top: 50%;
-      left: 50%;
+      top: calc(50% + var(--orbit-radius) * var(--y));
+      left: calc(50% + var(--orbit-radius) * var(--x));
       width: clamp(66px, 15vw, 92px);
       aspect-ratio: 1;
       display: grid;
@@ -639,7 +639,7 @@
       color: var(--on);
       text-align: center;
       text-decoration: none;
-      transform: rotate(calc(var(--i) * 40deg)) translateY(calc(-1 * var(--orbit-radius))) rotate(calc(var(--i) * -40deg));
+      transform: translate(-50%, -50%);
       transition: box-shadow .2s, scale .2s
     }
 
@@ -675,16 +675,6 @@
       line-height: 1.1;
       text-shadow: 0 1px 3px #0008;
       overflow-wrap: anywhere
-    }
-
-    @media(max-width: 420px) {
-      .spectrum-in {
-        --orbit-radius: 104px
-      }
-
-      .sp-orb {
-        width: 64px
-      }
     }
 
     /* seções gerais */
@@ -782,7 +772,8 @@
       height: 14px;
       border-radius: 50%;
       background: var(--k);
-      border: 2px solid var(--bg)
+      border: 2px solid var(--bg);
+      box-shadow: 0 0 0 1px var(--line)
     }
 
     .tl .yr {
@@ -868,5 +859,3 @@
         scroll-behavior: auto !important
       }
     }
-
-    

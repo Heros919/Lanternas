@@ -85,15 +85,30 @@ var C = [
 var POS = ["50% 8%", "50% 30%", "50% 0%"], SC = [1.05, 1.6, 1.35];
 var AUDIO = { verde: "audio/verde.mp3", vermelho: "audio/vermelho.mp3" };
 var TL = [
-  ["1940", "Alan Scott, o primeiro Lanterna Verde, estreia em All-American Comics #16.", "verde"],
-  ["1959", "Hal Jordan assume o anel em Showcase #22 e inicia a Era de Prata.", "verde"],
-  ["1961", "Sinestro aparece pela primeira vez em Green Lantern #7.", "amarelo"],
-  ["1962", "Carol Ferris vira Safira Estelar em Green Lantern #16.", "violeta"],
-  ["1994", "Kyle Rayner chega em Green Lantern #48 como Lanterna Verde.", "branco"],
-  ["2004", "Rebirth traz Hal Jordan de volta e reorganiza o Corpo.", "verde"],
-  ["2007", "A Guerra do Corpo Sinestro mostra o espectro inteiro.", "amarelo"],
-  ["2009", "Blackest Night lança os Lanternas Negros contra o universo.", "preto"],
-  ["2010", "Brightest Day introduz a luz branca da vida.", "branco"]
+ 
+/* Era de Ouro */
+["1940", "Alan Scott, o primeiro Lanterna Verde, estreia em All-American Comics #16 e se torna membro fundador da Sociedade da Justiça, cuja estreia ocorre em All Star Comics #3.", "verde"],
+
+/* Era de Bronze */
+["1968", "Guy Gardner estreia em Green Lantern #59 como o candidato alternativo escolhido para substituir Hal Jordan caso necessário.", "verde"],
+
+/* Era Moderna */
+["1985", "Crisis on Infinite Earths redefine a continuidade do multiverso da DC; Mogo estreia em Green Lantern vol. 2 #188.", "verde"],
+["1986", "Kilowog estreia em Green Lantern Corps #201, consolidando sua importância no treinamento dos Lanternas.", "verde"],
+["1989", "Emerald Dawn começa a recontar a origem de Hal Jordan; a minissérie é concluída em 1990.", "verde"],
+["2002", "Kyle Rayner assume a identidade de Ion e canaliza um nível extraordinário de poder ligado à força de vontade.", "verde"],
+
+/* Era Geoff Johns */
+["2004", "Green Lantern: Rebirth começa a trazer Hal Jordan de volta, preparando sua restauração como Lanterna Verde e o desenvolvimento posterior da mitologia de Parallax.", "verde"],
+["2007", "Atrocitus e Larfleeze têm aparições iniciais em Green Lantern vol. 4 #25; Atrocitus aparece de forma mais completa em #28, em 2008.", "vermelho"],
+["2009", "Agent Orange desenvolve a história de Larfleeze e dos Lanternas Laranja, cuja ganância é a força dominante.", "laranja"],
+
+/* Rebirth e era recente */
+["2010", "Brightest Day continua as consequências de Blackest Night e explora a luz branca da vida, já apresentada durante o conflito anterior.", "branco"],
+["2014", "Jessica Cruz aparece pela primeira vez em Justice League #30 e tem sua primeira aparição completa em Justice League #31.", "verde"],
+["2023", "Green Lantern #1 relança a série de Hal Jordan, escrita por Jeremy Adams e ilustrada por Xermánico; a edição também inclui o início de John Stewart: War Journal.", "verde"],
+["2026", "A série Lanterns estreia na HBO Max em 16 de agosto, com Kyle Chandler como Hal Jordan e Aaron Pierre como John Stewart.", "verde"]
+
 ];
 var GL = [
   ["Anel de poder", "Joia que recebe a carga da bateria e cria construtos a partir da emoção do portador."],
@@ -102,7 +117,6 @@ var GL = [
   ["Espectro Emocional", "Faixa de luz que reúne todas as emoções, cada uma ligada a uma cor."],
   ["Entidade", "Ser cósmico ligado a uma emoção, que alimenta uma tropa."],
   ["Setor espacial", "Fatia do universo vigiada por dois Lanternas Verdes."],
-  ["Corpo", "Nome dado às tropas organizadas, como o Corpo Sinestro."],
   ["Juramento", "Frase que o portador diz ao carregar o anel e que marca a identidade da tropa."]
 ];
 var QZ = [
@@ -130,8 +144,11 @@ function link(q, kind) {
 /* Espectro */
 function buildSp() {
   $("#sp").innerHTML = C.map(function (c, i) {
+    var angle = (i / C.length) * Math.PI * 2 - Math.PI / 2;
+    var x = Math.cos(angle).toFixed(4);
+    var y = Math.sin(angle).toFixed(4);
     return '<a class="sp-orb" href="' + c.id + '.html" style="--k:' + c.cor +
-      ';--i:' + i + '" aria-label="Abrir página: ' + c.nome +
+      ';--x:' + x + ';--y:' + y + '" aria-label="Abrir página: ' + c.nome +
       '"><span class="orb-light"></span><img class="orb-logo" src="img/' +
       (c.id === "indigo" ? "roxo" : c.id) + '.png" alt=""><span class="orb-name">' +
       c.nome + '</span></a>';
